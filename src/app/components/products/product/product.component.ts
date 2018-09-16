@@ -14,7 +14,7 @@ import { Product } from '../../../models/product';
 })
 export class ProductComponent implements OnInit {
 
-  constructor( public productService:ProductService) { }
+  constructor( private productService:ProductService) { }
 
   ngOnInit() {
 
